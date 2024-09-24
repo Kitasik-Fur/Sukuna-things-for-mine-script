@@ -1,0 +1,8 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kitasik-Fur/Sukuna-things-for-mine-script/refs/heads/Sukuna/Sukuna%20prelast'))()
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local humanoid = player.Character.Humanoid
+while true do
+    humanoid.AutoRotate = true
+    wait(0)
+end
