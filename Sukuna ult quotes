@@ -1,0 +1,2 @@
+message = "My turn brat."
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
