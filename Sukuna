@@ -3,3 +3,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitasik-Fur/Sukuna-th
 task.wait(1)
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Kitasik-Fur/Sukuna-things-for-mine-script/refs/heads/Sukuna/Sukuna%20Ult'))()
+
+task.wait(1)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kitasik-Fur/Sukuna-things-for-mine-script/refs/heads/Sukuna/Sukuna%20ult%20quotes%202'))()
