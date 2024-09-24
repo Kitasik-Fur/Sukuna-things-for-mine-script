@@ -402,7 +402,7 @@ Anim:Play()
 Anim:AdjustSpeed(0)
 
 Anim.TimePosition = startTime
-message = "know your place fool.."
+message = "Know your place fool..."
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 Wait(10)
 Anim:Stop()
@@ -456,16 +456,16 @@ Anim:Play()
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(0.10)
- message = "SCALE OF THE DRAGON"
+ message = "| SCALE OF THE DRAGON |"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 wait(3)
-message = "RECOIL"
+message = "| RECOIL |"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 wait(1)
-message = "TWIN METEORS"
+message = "| TWIN METEORS |"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 wait(2)
-message = "WORLD CUTTING SLASH"
+message = "| WORLD CUTTING SLASH |"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Kitasik-Fur/Sukuna-things-for-mine-script/refs/heads/Sukuna/Itadori%20Moveset%20Names'))()
@@ -583,7 +583,7 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(0.2)
-message = "open."
+message = "Fuga."
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Kitasik-Fur/Sukuna-things-for-mine-script/refs/heads/Sukuna/Itadori%20Moveset%20Names'))()
@@ -621,10 +621,10 @@ for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
 
 end
 
-message = "Domain Expansion"
+message = "Domain Expansion:"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
-message = "malevolent shrine"
+message = "Malevolent Shrine"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
 local AnimAnim = Instance.new("Animation")
